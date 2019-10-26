@@ -1,3 +1,6 @@
+"""Some comment on the way"""
+
+
 # Importing modules
 from bson import json_util
 from flask import Flask, request, jsonify, make_response, Response

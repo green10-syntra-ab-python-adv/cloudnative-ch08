@@ -1,0 +1,17 @@
+Index: venv/lib/python3.10/site-packages/jose/jws.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/venv/lib/python3.10/site-packages/jose/jws.py b/venv/lib/python3.10/site-packages/jose/jws.py
+--- a/venv/lib/python3.10/site-packages/jose/jws.py	
++++ b/venv/lib/python3.10/site-packages/jose/jws.py	
+@@ -3,7 +3,7 @@
+ import json
+ import six
+ 
+-from collections import Mapping, Iterable
++from collections.abc import Mapping, Iterable
+ 
+ from jose import jwk
+ from jose.constants import ALGORITHMS

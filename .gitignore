@@ -91,3 +91,6 @@ ENV/
 
 # PyCharm
 .idea
+
+#npm dependencies niet inbegrepen
+ch08-front/node_modules
